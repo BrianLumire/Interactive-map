@@ -141,7 +141,7 @@ const Map: React.FC = () => {
       libraries={libraries} // Use the typed libraries array
     >
       <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
-        <h1 style={{ textAlign: "center", color: "#333" }}>Interactive Map</h1>
+        <h1 style={{ textAlign: "center", color: "#333" }}>Interactive Test Map</h1>
         <SearchBar onPlaceSelected={handlePlaceSelect} />
         <GoogleMap
           mapContainerStyle={containerStyle}
